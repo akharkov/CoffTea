@@ -1,0 +1,29 @@
+ехнологи€ ajax без проблем позвол€ет получать содержимое текстового файла
+1. создайте текстовой файл myfile.txt с нужным вам содержимым
+2. в той же директории создайте файл index.html со следующим кодом внутри:
+
+    <script>
+var htReq = ('v' == '\v') ? new ActiveXObject ('Microsoft.XMLHTTP') : new XMLHttpRequest ();
+ 
+function sendReq ()
+{
+htReq.open ('get', 'myfile.txt');
+htReq.onreadystatechange = getReq;
+htReq.send (null);
+}
+ 
+function getReq ()
+{
+if (htReq.readyState == 4) alert (htReq.responseText); // !!!
+}
+ 
+ 
+    </script>
+    <button onclick="sendReq ()">Start</button>
+
+
+
+откройте файл index.html в браузере и кликните по кнопке "start" -- страница получит содержимое текстового файла myfile.txt и выведет его в модальном окошке
+
+дл€ решени€ вашей задачи вам нужно вместо alert (htReq.responseText); // !!! прописать код, который содержимое текстового файла занесЄт в нужные вам €чейки таблицы -- с этим помочь не могу, потому как не владею информацией ни о таблице, ни о текстовом файле
+0

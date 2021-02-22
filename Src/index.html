@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вкусно-Чайно</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&display=swap"  rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+   
+
+    
+
+</head>
+ 
+
+<body>
+
+
+<!-- bg-transparent -->
+<div id="idpromo" class="container promo mainsection">
+
+
+    <nav class="bg-transparent navbar navbar-expand-lg navbar-light bg-light mynav">
+        
+           
+        <a class="navbar-brand " href="#">
+            <img alt="Brand" class="logo img-responsive" src="img/logo/MainLogo.png">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+
+            <li class="nav-item ">
+              <a class="nav-link" href="#idpromo">Главная <span class="sr-only">(current)</span></a>
+            </li>
+
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#main-tea">Чай</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Кофе
+              </a>
+              <div class="dropdown-menu myshadow mybg-transparent01" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#main-coffee">История кофе</a>
+                <a class="dropdown-item" href="#">Ассортимент кофе</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Рецепты</a>
+              </div>
+            </li>
+
+            
+
+            <li class="nav-item">
+                <a class="nav-link " href="#main-souvenirs">Сувениры</a>  <!-- disabled -->
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="/sale">Опт</a>  <!-- disabled -->
+            </li>
+             
+            <li class="nav-item">
+                <a class="nav-link " href="#main-map">О нас</a>  <!-- disabled -->
+            </li>
+
+
+              
+
+          </ul>
+<!-- 
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+ -->
+
+        </div>
+      </nav>
+
+
+
+</div>
+
+
+
+   
+
+<!-- 
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <div class="myshadow card mt-5" style="width: 10rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5 " style="width: 10rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 10rem; ">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="shadow card mb-5 " style="width: 10rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 10rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 10rem; ">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+     
+        </div>
+    </div>
+
+ -->
+
+
+
+
+
+
+
+
+    <section id="idpromo" class="promo mainsection">
+
+        <div class="header">
+
+            <div class="logo">
+                <img src="img/logo/MainLogo.png" alt="" class="logo_img">
+            </div>
+
+            
+
+            <nav1 role="navigation">
+                <ul>
+                    <li><a href="#idpromo">Главная</a></li>
+                    <li><a href="#main-tea">Чай</a>
+                        <!-- <ul>
+                            <li><a href="/about">111</a></li>
+                            <li><a href="/history">222</a></li>
+                            <li><a href="/privacy-policy">333</a></li>
+                            <li><a href="/disclaimer">444</a></li>
+                            
+
+                        </ul> -->
+                    </li>
+                    <li><a href="#main-coffee">Кофе</a></li>
+                    <li><a href="#main-souvenirs">Сувениры</a></li>
+                    <li><a href="/sale">Опт</a></li>
+                    <li><a href="#main-map">О нас</a></li>
+                </ul>
+            </nav1>
+
+
+            
+
+
+        </div>
+
+        <!--  </div> -->
+
+        <div id="idquotes" class="quotes">
+            Этот мир не так уж плох, пока в нем есть кофе.
+        </div>
+
+
+       
+
+        <div class="promofooter">
+
+            <div class="contacts footercontact">
+                <div class="phone">+7-999-99-99</div>
+                <div class="mail">info@mydomen.ru</div>
+            </div>
+
+            <div class="socialicons">
+                <div class="social vk">
+                    <a href="https://vk.com/vkusno_chaino" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
+                </div>
+                <div class="social instagram">
+                    <a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                </div>
+                <div class="social odnoklassniki">
+                    <a href="#" target="_blank"><i class="fa fa-odnoklassniki fa-2x"></i></a>
+                </div>
+
+                <div class="social telegram">
+                    <a href="#" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <section id="main-coffee" class="coffee">
+        <div class="mycontainer">
+
+            <div class="coffeelogo">
+            </div>
+            <h2>Про кофе</h2>
+
+
+            <div class="info">
+                <p>Здесь будет история кофе</p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+
+            </div>
+
+            <div id="food-coffee" class="goods">
+
+                <div id="coffee-rangeofgoods01" class="rangeofgoods">
+                    <div class="goods_head">
+
+                        <div class="good_pic">
+                            <img class="good_pic good_pic_logo" src="img/logo/coffeelogo1.jpg" alt="">
+                        </div>
+                        <div class="good_title">
+                            Сорт кофе 1
+                        </div>
+                    </div>
+
+                    <div class="good_info">
+                        Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit.
+                        Corrupti nemo eaque totam eos,
+                        dignissimos sint molestias ullam a
+                        consequatur officiis illo nisi quae eum
+
+                    </div>
+
+                    <button class="good_botton">Подробнее</button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <hr class="devider">
+    </section>
+
+
+
+
+
+    <section id="main-tea" class="coffee">
+        <div class="mycontainer">
+            <div class="coffeelogo">
+                <!-- <img   class="teatilepic" src="img/logo/tealogo1.jpg" alt="" > -->
+            </div>
+            <h2>Про чай</h2>
+
+
+            <div class="info">
+                <p>Здесь будет история чая</p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+
+            </div>
+
+            <div id="food-tea" class="goods">
+                <!-- id="tea-goodstilepic01" -->
+                <div id="tea-rangeofgoods01" class="rangeofgoods">
+                    <img class="teatilepic" src="img/logo/coffeelogo1.jpg" alt="">
+
+                    <div class="goodsbasetile">
+                        <div class="goods_head">
+
+                            <div class="good_pic">
+                                <!-- <img class="good_pic good_pic_logo" src="img/logo/coffeelogo1.jpg" alt="" > -->
+                            </div>
+                            <div class="good_title">
+                                Сорт чая 1
+                            </div>
+                        </div>
+
+                        <div class="good_info">
+                            Lorem ipsum dolor sit,
+                            amet consectetur adipisicing elit.
+                            Corrupti nemo eaque totam eos,
+                            dignissimos sint molestias ullam a
+                            consequatur officiis illo nisi quae eum
+
+                        </div>
+
+
+                    </div>
+                    <button class="good_botton">Подробнее</button>
+                </div>
+
+            </div>
+
+        </div>
+        <hr class="devider">
+    </section>
+
+
+    <section id="main-souvenirs" class="coffee">
+        <div class="mycontainer">
+            <div class="coffeelogo">
+            </div>
+            <h2>Сувениры</h2>
+
+
+            <div class="info">
+                <p>Здесь будет хвалилка о Сувенирах</p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+                <p></p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci voluptates, amet
+                expedita veritatis vel non pariatur hic consequatur, accusantium incidunt? Voluptas vitae assumenda
+                dicta sunt quae fuga quis velit?
+
+            </div>
+
+            <div id="food-souvenirs" class="goods">
+                <!-- id="tea-goodstilepic01" -->
+                <div id="souvenirs001" class="rangeofgoods">
+                    <img class="teatilepic" src="img\goods\souvenirs\souvenirs001.jpg" alt="">
+
+                    <div class="goodsbasetile">
+                        <div class="goods_head">
+
+                            <div class="good_pic">
+                                <!-- <img class="good_pic good_pic_logo" src="img/logo/coffeelogo1.jpg" alt="" > -->
+                            </div>
+                            <div class="good_title">
+                                <!-- Сувенир 001    -->
+                            </div>
+                        </div>
+
+                        <div class="good_info">
+                            <!-- Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. 
+                            Corrupti nemo eaque totam eos, 
+                            dignissimos sint molestias ullam a 
+                            consequatur officiis illo nisi quae eum -->
+
+                        </div>
+
+
+                    </div>
+                    <button class="good_botton">Подробнее</button>
+                </div>
+
+            </div>
+
+        </div>
+        <hr class="devider">
+    </section>
+
+
+    <section id="main-map" class="coffee">
+        <div class="mycontainer">
+            <!-- <div class="coffeelogo">            </div> -->
+            <h3>Контакты</h3>
+
+
+            <div class="sectioncontacts">
+
+
+
+                <div class="map">
+              
+                    <div class="map_place"> 
+                        <!-- <h4>Мы на карте :</h4> -->
+                        <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acf2b3a00d212e4481bddd00cf858c61e57dd8a1c4eccda28f960c2a38bfbd6f3&amp;source=constructor" width="900" height="591" frameborder="0"></iframe>
+                         -->
+                         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acf2b3a00d212e4481bddd00cf858c61e57dd8a1c4eccda28f960c2a38bfbd6f3&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+
+     
+                    </div>
+
+                    <div class="map_info">
+                        <address class="map_info_addr">г. Краснодар, ул. Душистая, 51. Молодёжный мкр.</address>
+                        <a class="map_info_phone" href="tel89054959213"> +7-905-49-59-213</a>
+                    </div>   
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+        <hr class="devider">
+    </section>
+
+
+    <section class="footer">
+
+    </section>
+
+
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <script> /* формируем плитки кофейных продуктов */
+        showCoffeeGoods();
+        showTeaGoods();
+        ShowSouvenirsGoods();
+    </script>
+
+
+
+
+
+    <!-- <script>
+
+
+        
+
+        /* Изменения размера окна */
+        window.addEventListener('resize', function (event) {
+            var element = document.getElementById("idpromo");
+            /* Меняем высоту секции Promo */
+            if (document.documentElement.clientWidth < 1000) {
+                element.style.height = document.documentElement.clientWidth * 0.68 + "px";
+            }
+            /* else{element.style.height="680px";} */
+
+        });
+    </script>
+ -->
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+ 
+
+
+</body>
+
+</html>

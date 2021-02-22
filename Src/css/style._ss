@@ -1,0 +1,292 @@
+
+@import url('../css/social.css');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    box-sizing: border-box ;
+   /*  background-color:blue; */
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color:rgb(248, 245, 245);
+}
+
+h2{
+       width: 100%;   height: 140px;  
+       text-align: center;   
+       font:  bold 72px Lobster, Arial, sans-serif;   
+       color: #FFFFFF;   
+       text-shadow: 0 1px 0 #ccc,    
+                    0 2px 0 #c9c9c9,   
+                    0 3px 0 #bbb,   
+                    0 4px 0 #b9b9b9,   
+                    0 5px 0 #aaa,   
+                    0 6px 1px rgba(0,0,0,.1),   
+                    0 0 5px rgba(0,0,0,.1),   
+                    0 1px 3px rgba(0,0,0,.3),   
+                    0 3px 5px rgba(0,0,0,.2),   
+                    0 5px 10px rgba(0,0,0,.25),   
+                    0 10px 10px rgba(0,0,0,.2),   
+                    0 20px 20px rgba(0,0,0,.15);   
+       /* background:#0E8DBC */;   
+
+}
+
+
+section{
+
+
+    box-sizing: border-box ;
+    border: 1px solid rgb(36, 6, 94);
+    background-color:rgb(226, 224, 224);
+    max-width: 1000px;
+    
+    margin: auto;
+    
+    /* width: 95vw;
+    height: 37vw;   */
+    /* height:   680px;   */
+ 
+    
+}
+
+.container{
+    background-color:rgb(220, 220, 220);
+    box-sizing: border-box ;
+    
+    /* border-radius: 10px;
+ */
+
+}
+
+
+.promo{
+    position: relative;
+    /* height:  800px; */
+    /* background: url('../img/bgpromo2.jpg')  no-repeat center top;  */
+    background: url('../img/coffeecup.jpg')  no-repeat center top;
+    background-size: cover; /* contain */
+    height: 680px;
+    max-height: 680px;
+}
+
+.coffee{
+    /* height:  800px; */
+/*     background: url('../img/coffeecup.jpg')  no-repeat center top;  */
+    background-size: cover; /* contain */
+    
+    
+}
+
+.header{
+ 
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    
+ 
+     
+}
+.logo{
+    height:100px;
+    width: 100px;
+    float: left;
+   
+
+}
+
+.logo .logo_img{
+    margin: 0 auto;
+    display: inline-block; 
+    width:100%;
+ 
+}
+
+.contacts{
+
+    /* background-color:rgb(175, 157, 175); */
+    /*  float: right; 
+    display:flex; */
+    
+
+
+}
+
+.footercontact{
+    display:flex;
+    float: left; 
+    
+    
+    
+}
+
+
+.contacts .phone{
+    margin: 5px;
+    
+   
+}
+
+.contacts .mail{margin: 5px;}
+
+
+
+
+.quotes{
+    display: flex;
+    margin: 2% auto;
+    max-width: 70%;
+    height: 150px;
+    
+    font-weight: bold;
+    font-style: italic;
+    font-size: 300%; /* 3em */
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+    
+}
+
+.interlayer{
+    
+    height: 40%;
+    
+}
+
+.promofooter{
+    /* height: 100px; */
+   
+    
+    color: #f3efef;
+    position:absolute;
+    bottom:0;
+    
+    
+    
+    width: 100%;
+
+}
+
+
+.footer{
+    
+    height:  100px;
+ /*    background: url('../img/bgpromo3.jpg') center center no-repeat; */
+    background-size: contain;
+    position: absolute;  
+    bottom: 0;
+	
+
+}
+
+
+
+
+/*| Navigation |*/
+
+nav{
+    /* background: #334; */ /* Задаем основной фон меню */
+    padding: 0 3%; /* Задаем внутренние отступы */
+    margin: 0% 30% 5% 5%;
+    }
+    
+    nav ul {
+    list-style: none; /* Убираем маркер для элементов списка */
+    }
+    
+    nav ul li {
+    display:inline-block;/*Выстраиваем пункты меню в ряд по горизонтали */
+    }
+    
+    nav ul li a {
+    display:block; /* Настраиваем оформление пунктов меню */
+    padding: 15px 20px;
+    font-size: .9em;
+    color: #eee;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-top: 1px solid #445;
+    }
+    
+    nav ul li:hover {
+    background: #445; /* Меняем фон пункта меню при наведении указателя мыши */
+    }
+    
+    nav ul li ul {
+    display: none; /* Прячем пункты выпадающего блока меню */
+    position:absolute;
+    background: #334; /* Задаем фон выпадающего блока меню */
+    }
+    
+    nav ul li:hover ul {
+    display:block; /* Отображаем подменю при наведении мыши */
+    }
+    
+    nav ul li ul li {
+    display:block; /* Выстраиваем по вертикали пункты выпадающего меню */
+    }
+
+    
+
+.socialicons{
+    display:flex;
+    float: right;
+
+}  
+
+.info{
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+    background-color:rgb(200, 200, 200);
+    box-shadow: 0 3px 7px 0px rgba(0, 0, 0, .5);
+
+}
+
+
+.goods{
+    margin: 10px;
+    display:flex;
+   
+}
+
+
+.rangeofgoods{
+    margin: 10px;
+    height: 300px;
+    width:30%;
+    border-radius: 10px;
+    background-color:rgb(200, 200, 200);
+    box-shadow: 0 3px 7px 0px rgba(0, 0, 0, .5);
+    float: left;
+
+}
